@@ -1,0 +1,37 @@
+Learning Management System
+->user login and signup and forget password 
+->editing profile
+->course related details which can be purchased 
+student side
+    ->user module :create accont,login,forgot pass,veiw and edit profile
+    ->course module::veiw courses and details
+    ->payment module:can subscribe to a course and pay
+admin side:basically manager account he can see various stuff like number of registered
+number of subs etc can create cources and all
+    ->user account
+    ->create modify course: list veiw edit delete
+    ->payement related management
+
+
+technology used
+tech stack (mern)mongodb,express,react,nodejs
+
+routes
+student
+    ->user:(/api/v1/user)
+        ->create accout /register
+        ->login /login
+        ->forgot password /changepassword
+        ->me /veiwprofile
+        ->update /updateprofile
+        ->logout /logout
+    ->course(/api/v1/courses)
+        ->veiw courses 
+        ->edit courses etc
+
+
+
+###### we use import modules in this project so add "type":"module"
+###CLODINARY USED FOR FILE UPLOADS
+###SMTP FOR MAIL SENDING
+
